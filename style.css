@@ -26,7 +26,7 @@ body::before {
       rgba(222, 161, 19, 0.8) 50%,
       rgba(222, 161, 19, 0.8) 100%
     ),
-    url(/tree/main/img/crwall.jpg);
+    url(https://daudcloud.github.io/tree/main/img/crwall.jpg);
   background-size: cover;
   z-index: -1;
 }
