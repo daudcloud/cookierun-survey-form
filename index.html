@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Cookie Run Survey Form</h1>
+        <p id="description">Please fill the survey below. Thank you!</p>
+    </div>
+    <div class="forms">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" placeholder="Enter your age" min="15" max="40">
+            <label for="dropdown" id="dropdown-label">How do you know about this game?</label>
+            <select name="dropdown" id="dropdown">
+                <option value="yotuube">Youtube</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="friends">Friend's suggestion</option>
+            </select>
+            <label for="recommend" id="recommend-label">Would you recommend this game to your friend?</label>
+            <div>
+                <label for="rec1" class="radios"><input type="radio" name="recommend" id="rec1" value="0" checked> Definitely</label>
+                <label for="rec2" class="radios"><input type="radio" name="recommend" id="rec2" value="1"> Maybe</label>
+                <label for="rec3" class="radios"><input type="radio" name="recommend" id="rec3" value="2"> Not Sure</label>
+            </div>
+            <label for="check">Select your favorite mode</label>
+            <div>
+                <label for="check1" class="checks"><input type="checkbox" name="check" id="check1" value="cookietrials">Cookie Trials</label>
+                <label for="check2" class="checks"><input type="checkbox" name="check" id="check2" value="trophyrace">Trophy Race</label>
+                <label for="check3" class="checks"><input type="checkbox" name="check" id="check3" value="breakout">Breakout</label>
+                <label for="check4" class="checks"><input type="checkbox" name="check" id="check4" value="championleague">Champion League</label>
+                <label for="check5" class="checks"><input type="checkbox" name="check" id="check5" value="island">Island of memories</label>
+                <label for="check6" class="checks"><input type="checkbox" name="check" id="check6" value="friends">Friendly Run</label>
+                <label for="check7" class="checks"><input type="checkbox" name="check" id="check7" value="guilds">Guilds</label>
+            </div>
+            <label for="comment">Any comments or suggestions?</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
